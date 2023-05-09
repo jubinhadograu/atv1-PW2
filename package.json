@@ -4,7 +4,7 @@
   "description": "atividade de pw2 sobre cadastro de alunos na escola",
   "main": "index.js",
   "scripts": {
-  "start": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
   "homepage": "https://github.com/jubinhadograu/repoPW2#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^2.0.21"
+    "mysql2": "^3.3.0",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.31.1"
   }
 }
